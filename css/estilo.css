@@ -1,0 +1,53 @@
+header{
+    background-color: #cb1919;
+    padding: 10px;
+}
+
+header h1{
+    color: aliceblue;
+}
+
+.title{
+    padding: 10px;
+    background-color: #cb1919;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.container{
+    border: 2px solid #cb1919;
+    width: 30%;
+    margin:auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container input{
+    margin-bottom: 15px;
+    border: 1px solid #cb1919;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#distancia:hover, #tempo:hover{
+    background-color: #f69797;
+  
+}
+
+#velocidade {
+    background-color: #f69797;
+}
+
+.btn-calculo{
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.btn-calculo .btn{
+    margin-right: 15px;
+}
+
